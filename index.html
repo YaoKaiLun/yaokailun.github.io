@@ -3,10 +3,42 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>i am kailunyao</title>
+  <style>
+    html, body {
+      height: 100%;
+      width: 100%;
+    }
+
+    .typing-wrapper {
+      border-bottom: 1px solid gray;
+      font-size: 25px;
+      height: 40px;
+      left: 50%;
+      margin-left: -240px;
+      margin-top: -140px;
+      position: absolute;
+      text-align: center;
+      top: 50%;
+      width: 480px;
+    }
+  </style>
 </head>
 <body>
-  <p>hello, i am kailunyao</p>
+  <div class="typing-wrapper">
+    <span id="typing-box"></span>
+  </div>
+  <script src="lib/typed.min.js"></script>
+  <script>
+    var typedOptions = {
+      backDelay: 3000,
+      loop: true,
+      showCursor: false,
+      startDelay: 500,
+      strings: ['<i>Hi, i am <strong>KaiLunYao</strong>, nice to meet you!</i>'],
+      typeSpeed: 80,
+    }
+    var typed = new Typed("#typing-box", typedOptions);
+  </script>
 </body>
 </html>
