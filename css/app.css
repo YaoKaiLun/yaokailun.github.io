@@ -1,0 +1,39 @@
+#app {
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  padding-top: 30px;
+  background: linear-gradient(40deg,#2096ff,#05ffa3);
+}
+
+.card-1 {
+  background: #20c997 !important;
+}
+
+.card-2 {
+  background: #00cbff !important;
+}
+
+.card-1-content {
+  color: #fff !important;
+}
+
+.card-2-content {
+  color: #fff !important;
+}
+
+.card-3-content {
+  color: #000 !important;
+}
+
+.list-group-item {
+  color: #fff;
+}
+
+@media (min-width: 768px) {
+  .card {
+    width: 90%;
+    margin: auto;
+  }
+}
