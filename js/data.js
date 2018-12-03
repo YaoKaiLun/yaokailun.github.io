@@ -55,6 +55,11 @@ window.finishedTasks = [
 
 window.readedBooks = [
   {
+    name: 'CSS 世界（张鑫旭）',
+    start: '2018/10/26',
+    end: '2018/11/02',
+  },
+  {
     name: '程序员代码面试指南（IT 名企算法与数据结构题目最优解）',
     start: '2018/09/24',
     end: '2018/10/31',
