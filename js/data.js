@@ -55,9 +55,14 @@ window.finishedTasks = [
 
 window.readedBooks = [
   {
+    name: '你不知道的 javascript（中卷）',
+    start: '2018/12/15',
+    end: '2018/12/08',
+  },
+  {
     name: '你不知道的 javascript（上卷）',
-    start: '2018/11/03',
-    end: '2018/11/08',
+    start: '2018/12/03',
+    end: '2018/12/08',
   },
   {
     name: 'CSS 世界（张鑫旭）',
