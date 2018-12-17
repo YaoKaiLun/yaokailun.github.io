@@ -21,6 +21,11 @@ window.doingThings = [
 
 window.finishedTasks = [
   {
+    name: '吴军的谷歌方法论（得到音频课程）',
+    start: '2018/01',
+    end: '2018/12',
+  },
+  {
     name: '英语流利说半年计划1',
     start: '2018/01/31',
     end: '2018/07/31',
@@ -54,6 +59,11 @@ window.finishedTasks = [
 
 
 window.readedBooks = [
+  {
+    name: '你不知道的 javascript（下卷）',
+    start: '2018/12/16',
+    end: '2018/12/17',
+  },
   {
     name: '你不知道的 javascript（中卷）',
     start: '2018/12/15',
