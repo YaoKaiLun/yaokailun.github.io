@@ -4,13 +4,8 @@ window.doingThings = [
     start: '2018/11/08 -',
   },
   {
-    name: '算法设计与分析 【北大公开课】屈婉玲',
-    link: 'https://www.bilibili.com/video/av7134874/',
-    start: '2018/11/03 -',
-  },
-  {
-    name: '程序员的算法趣题',
-    start: '2018/11/01 -',
+    name: 'MySQL 实战 45 讲',
+    start: '2018/11/12 -'
   },
   {
     name: '英语流利说半年计划2',
@@ -59,6 +54,11 @@ window.finishedTasks = [
 
 
 window.readedBooks = [
+  {
+    name: '图解 HTTP',
+    start: '2018/12/30',
+    end: '2018/12/24',
+  },
   {
     name: '你不知道的 javascript（下卷）',
     start: '2018/12/16',
