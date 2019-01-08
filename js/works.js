@@ -11,9 +11,11 @@ class WorksList extends React.Component {
           item.type === 'normal' &&
           (
             <div class="row mt-2">
-              <div class="col-12 mb-2 timeline-img-wrapper">
+              <div class="col-12 col-md-5 mb-2 timeline-img-wrapper">
                 <img class="timeline-img" src={item.cover} />
               </div>
+              <div class="d-block"></div>
+              <div class="col-12 col-md-7 timeline-content">{item.content}</div>
             </div>
           )
         }
@@ -21,11 +23,9 @@ class WorksList extends React.Component {
           item.type === 'image' &&
           (
             <div class="row mt-2">
-              <div class="col-12 col-md-5 mb-2 timeline-img-wrapper">
+              <div class="col-12 mb-2 timeline-img-wrapper">
                 <img class="timeline-img" src={item.cover} />
               </div>
-              <div class="d-block"></div>
-              <div class="col-12 col-md-7 timeline-content">{item.content}</div>
             </div>
           )
         }
