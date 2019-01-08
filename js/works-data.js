@@ -15,7 +15,7 @@ window.worksData = [
   },
   {
     type: 'normal',
-    title: '<a target="_blank" href="https://www.coolbuy.com">玩物志·好物商店 coolbuy.com</a>',
+    title: '<a target="_blank" href="https://coolbuy.com">玩物志·好物商店 coolbuy.com</a>',
     date: 'Oct, 2018 - now',
     cover: './assets/wow.jpg',
     content: '依托于爱范儿旗下、专注于品味腔调的消费意见媒体，专注轻奢、设计品、有趣之物、新潮酷生活范品等领域。 同时，玩物志也是一个基于社交媒体的电商。集爱范儿媒体资源、国内外品牌资源于一身，以「创造消费乐趣」为宗旨。 作为微信战略合作伙伴，玩物志目前已成为微信第一范品推荐平台。',
