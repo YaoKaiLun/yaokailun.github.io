@@ -22,6 +22,12 @@ window.worksData = [
   },
   {
     type: 'image',
+    date: '7 Oct, 2018',
+    title: '<a target="_blank" href="https://www.ifanr.com/api/ifanr-special/vivo-nex">VIVO NEX 发布宣传 H5</a>',
+    cover: './assets/vivo-nex.jpg'
+  },
+  {
+    type: 'image',
     date: '8 Oct, 2018',
     title: '8·8 微信支付日商业合作，三个 H5 页面：<a target="_blank" href="https://www.ifanr.com/api/ifanr-special/payment-documentary">微信支付纪录片</a>，<a target="_blank" href="https://www.ifanr.com/api/ifanr-special/round-table-forum">圆桌论坛</a>，<a target="_blank" href="https://www.ifanr.com/api/ifanr-special/wechat-payment-history">微信支付品牌 TVC</a>',
     cover: './assets/wechat-payment-day.jpg'
