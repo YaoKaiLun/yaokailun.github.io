@@ -55,6 +55,11 @@ window.finishedTasks = [
 
 window.readedBooks = [
   {
+    name: '深入浅出 webpack',
+    start: '2019/01/19',
+    end: '2019/01/20',
+  },
+  {
     name: '图解 HTTP',
     start: '2018/12/30',
     end: '2018/12/24',
