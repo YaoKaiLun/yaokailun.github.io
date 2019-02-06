@@ -1,4 +1,4 @@
-const noteDir = '../blob/master/notes/'
+const noteDir = 'https://github.com/YaoKaiLun/yaokailun.github.io/blob/master/notes/'
 
 class NotesList extends React.Component {
   renderItem(item) {
