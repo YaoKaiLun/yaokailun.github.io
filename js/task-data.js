@@ -52,6 +52,11 @@ window.finishedTasks = [
 
 window.readedBooks = [
   {
+    name: '编码--隐匿在计算机软硬件背后的语言',
+    start: '2019/02/03',
+    end: '2019/02/06',
+  },
+  {
     name: '深入浅出 webpack',
     start: '2019/01/19',
     end: '2019/01/20',

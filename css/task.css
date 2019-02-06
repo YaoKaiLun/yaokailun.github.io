@@ -3,8 +3,30 @@
   height: 100vh;
   overflow-x: hidden;
   overflow-y: scroll;
-  padding-top: 30px;
   background: linear-gradient(40deg,#2096ff,#05ffa3);
+}
+
+.my-navbar {
+  background-color: transparent !important;
+}
+
+.my-navbar {
+  padding-left: 0;
+}
+
+.my-navbar .active {
+  font-weight: bold;
+  color: darkorange !important;
+}
+
+.navbar-toggler {
+  padding: .1rem .3rem;
+  font-size: .8rem;
+  outline: none !important;
+}
+
+.card-body {
+  padding: 1rem;
 }
 
 .card-1 {
@@ -27,8 +49,18 @@
   color: #000 !important;
 }
 
+.card-body {
+  max-height: 82vh;
+  overflow: scroll;
+}
+
 .list-group-item {
   color: #fff;
+  padding: .5rem .2rem;
+}
+
+.list-group-item p {
+  margin-bottom: .5rem;
 }
 
 @media (min-width: 768px) {

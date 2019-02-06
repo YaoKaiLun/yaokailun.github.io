@@ -56,11 +56,28 @@ class ListGroup extends React.Component {
   }
 }
 
-class App extends React.Component {
+class Task extends React.Component {
+  renderNavbar() {
+    return (
+      <nav class="navbar navbar-expand-lg navbar-light bg-light my-navbar">
+        <button class="navbar-toggler float-right" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link active" href="#">任务</a>
+            <a class="nav-item nav-link" target="_blank" href="../notes.html">笔记</a>
+            <a class="nav-item nav-link" target="_blank" href="../works.html">作品集</a>
+          </div>
+        </div>
+      </nav>
+    )
+  }
   render() {
     return (
       <div className="container-fluid">
-        <div className="row">
+        {this.renderNavbar()}
+        <div className="row dashboard">
           <div className="col-12 col-sm-12 col-lg-4 mb-3 mb-sm-3">
             <div className="card card-1">
               <div className="card-header text-white">
@@ -98,6 +115,6 @@ class App extends React.Component {
 }
 
 ReactDOM.render(
-  <App />,
+  <Task />,
   document.getElementById('app')
 );
