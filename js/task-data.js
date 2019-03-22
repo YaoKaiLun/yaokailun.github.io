@@ -52,6 +52,11 @@ window.finishedTasks = [
 
 window.readedBooks = [
   {
+    name: 'MongoDB 权威指南（第二版）',
+    start: '2019/03/09',
+    end: '2019/03/22',
+  },
+  {
     name: '编码--隐匿在计算机软硬件背后的语言',
     start: '2019/02/03',
     end: '2019/02/06',
