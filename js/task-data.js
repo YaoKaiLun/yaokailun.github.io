@@ -52,6 +52,21 @@ window.finishedTasks = [
 
 window.readedBooks = [
   {
+    name: '演讲的力量',
+    start: '2019/03/23',
+    end: '2019/04/06',
+  },
+  {
+    name: '企业 IT 架构之道：阿里巴巴中台战略思想与架构实战',
+    start: '2019/03/23',
+    end: '2019/03/31',
+  },
+  {
+    name: 'MongoDB 权威指南（第二版）',
+    start: '2019/03/09',
+    end: '2019/03/22',
+  },
+  {
     name: 'MongoDB 权威指南（第二版）',
     start: '2019/03/09',
     end: '2019/03/22',
