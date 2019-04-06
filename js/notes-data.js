@@ -12,6 +12,6 @@ window.notesData = [
   {
     name: '读书笔记：演讲的力量',
     link: 'ted-talks.md',
-    date: '2019/04/06
+    date: '2019/04/06'
   }
 ]
