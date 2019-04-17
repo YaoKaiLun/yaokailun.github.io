@@ -52,6 +52,11 @@ window.finishedTasks = [
 
 window.readedBooks = [
   {
+    name: '刷新',
+    start: '2019/04/14',
+    end: '2019/04/16',
+  },
+  {
     name: '数据可视化（第二版 陈为）',
     start: '2019/04/1',
     end: '2019/04/11',
