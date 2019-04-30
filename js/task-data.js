@@ -52,6 +52,11 @@ window.finishedTasks = [
 
 window.readedBooks = [
   {
+    name: '史蒂夫·乔布斯传',
+    start: '2019/04/17',
+    end: '2019/04/28',
+  },
+  {
     name: '数据可视化实战（使用 D3 设计交互式图表）',
     start: '2019/04/15',
     end: '2019/04/17',
