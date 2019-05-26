@@ -8,6 +8,11 @@ window.doingThings = [
 
 window.finishedTasks = [
   {
+    name: 'Developing iOS 11 Apps with Swift (Stanford 视频)',
+    start: '2019/04/27',
+    end: '2019/05/26',
+  },
+  {
     name: '吴军的谷歌方法论（得到音频课程）',
     start: '2018/01',
     end: '2018/12',
@@ -51,6 +56,11 @@ window.finishedTasks = [
 
 
 window.readedBooks = [
+  {
+    name: 'iOS Apprenticce (7th version)',
+    start: '2019/05/26',
+    end: '-',
+  },
   {
     name: '史蒂夫·乔布斯传',
     start: '2019/04/17',
