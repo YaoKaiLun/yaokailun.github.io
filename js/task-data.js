@@ -57,9 +57,19 @@ window.finishedTasks = [
 
 window.readedBooks = [
   {
-    name: 'iOS Apprenticce (7th version)',
+    name: '启示录',
+    start: '2019/07/02',
+    end: '2019-',
+  },
+  {
+    name: 'Kotlin Apprentice',
+    start: '2019/05/01',
+    end: '2019-',
+  },
+  {
+    name: 'iOS Apprentice (7th version)',
     start: '2019/05/26',
-    end: '-',
+    end: '2019/07/05',
   },
   {
     name: '史蒂夫·乔布斯传',
