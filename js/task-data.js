@@ -8,9 +8,9 @@ window.doingThings = [
 
 window.finishedTasks = [
   {
-    name: 'Developing iOS 11 Apps with Swift (Stanford 视频)',
-    start: '2019/04/27',
-    end: '2019/05/26',
+    name: '学车',
+    start: '2019/05、03',
+    end: '2019/',
   },
   {
     name: '吴军的谷歌方法论（得到音频课程）',
@@ -57,19 +57,34 @@ window.finishedTasks = [
 
 window.readedBooks = [
   {
-    name: '启示录',
-    start: '2019/07/02',
+    name: '浪潮之巅',
+    start: '2019/07/16',
+    end: '2019/',
+  },
+  {
+    name: 'Android Apprentice',
+    start: '2019/07/06',
     end: '2019-',
   },
   {
     name: 'Kotlin Apprentice',
-    start: '2019/05/01',
+    start: '2019/07/01',
     end: '2019-',
+  },
+  {
+    name: '启示录',
+    start: '2019/07/02',
+    end: '2019/07/15',
   },
   {
     name: 'iOS Apprentice (7th version)',
     start: '2019/05/26',
     end: '2019/07/05',
+  },
+  {
+    name: 'Developing iOS 11 Apps with Swift (Stanford 视频)',
+    start: '2019/04/27',
+    end: '2019/05/26',
   },
   {
     name: '史蒂夫·乔布斯传',
