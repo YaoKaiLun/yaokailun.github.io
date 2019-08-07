@@ -1,17 +1,12 @@
 window.doingThings = [
   {
-    name: 'MySQL 实战 45 讲',
-    start: '2018/11/12 -'
+    name: '学车',
+    start: '2019/05、03',
   },
 ]
 
 
 window.finishedTasks = [
-  {
-    name: '学车',
-    start: '2019/05、03',
-    end: '2019/',
-  },
   {
     name: '吴军的谷歌方法论（得到音频课程）',
     start: '2018/01',
@@ -57,9 +52,24 @@ window.finishedTasks = [
 
 window.readedBooks = [
   {
-    name: '浪潮之巅',
+    name: '浪潮之巅(第四版 下)',
+    start: '2019/08/07',
+    end: '-',
+  },
+  {
+    name: 'Electron in action',
+    start: '2019/07/22',
+    end: '-',
+  },
+  {
+    name: '大型网站技术架构：核心原理与案例分析,
+    start: '2019/07/22',
+    end: '2019/08/07',
+  },
+  {
+    name: '浪潮之巅(第四版 上)',
     start: '2019/07/16',
-    end: '2019/',
+    end: '2019/08/06',
   },
   {
     name: 'Android Apprentice',
