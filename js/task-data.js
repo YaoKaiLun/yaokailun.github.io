@@ -57,9 +57,14 @@ window.readedBooks = [
     end: '-',
   },
   {
+    name: 'Android Apprentice',
+    start: '2019/07/06',
+    end: '2019-',
+  },
+  {
     name: 'Electron in action',
     start: '2019/07/22',
-    end: '-',
+    end: '2019/08/09',
   },
   {
     name: '大型网站技术架构：核心原理与案例分析',
@@ -70,16 +75,6 @@ window.readedBooks = [
     name: '浪潮之巅(第四版 上)',
     start: '2019/07/16',
     end: '2019/08/06',
-  },
-  {
-    name: 'Android Apprentice',
-    start: '2019/07/06',
-    end: '2019-',
-  },
-  {
-    name: 'Kotlin Apprentice',
-    start: '2019/07/01',
-    end: '2019-',
   },
   {
     name: '启示录',
