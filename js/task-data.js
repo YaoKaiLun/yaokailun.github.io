@@ -62,6 +62,16 @@ window.readedBooks = [
     end: '2019-',
   },
   {
+    name: 'Google 软件测试之道',
+    start: '2019/08/22',
+    end: '2019/08/29',
+  },
+  {
+    name: '编程大师访谈录',
+    start: '2019/08/10',
+    end: '2019/08/22',
+  },
+  {
     name: 'Electron in action',
     start: '2019/07/22',
     end: '2019/08/09',
