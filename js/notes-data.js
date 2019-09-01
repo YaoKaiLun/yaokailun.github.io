@@ -1,5 +1,10 @@
 window.notesData = [
   {
+    name: '读书笔记：大型网站技术架构：核心原理与案例分析',
+    link: 'huge-web-site.md',
+    date: '2019/09/02',
+  },
+  {
     name: '读书笔记：演讲的力量',
     link: 'ted-talks.md',
     date: '2019/04/06'
@@ -13,5 +18,5 @@ window.notesData = [
     name: '读书笔记：编码--隐匿在计算机软硬件背后的语言',
     link: 'bianma.md',
     date: '2019/02/06',
-  }  
+  }
 ]
