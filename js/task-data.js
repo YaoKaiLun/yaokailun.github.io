@@ -52,14 +52,19 @@ window.finishedTasks = [
 
 window.readedBooks = [
   {
-    name: '浪潮之巅(第四版 下)',
-    start: '2019/08/07',
-    end: '-',
+    name: '代码之美',
+    start: '2019/09/05',
+    end: '2019/-',
   },
   {
     name: 'Android Apprentice',
     start: '2019/07/06',
     end: '2019-',
+  },
+  {
+    name: '浪潮之巅(第四版 下)',
+    start: '2019/08/07',
+    end: '2019/09/06',
   },
   {
     name: 'Google 软件测试之道',
