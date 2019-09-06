@@ -1,8 +1,18 @@
 window.notesData = [
   {
+    name: '技术博客：漫谈 PWA 的过去、现在和未来',
+    link: 'pwa.md',
+    date: '2019/09/06',
+  },
+  {
     name: '读书笔记：大型网站技术架构：核心原理与案例分析',
     link: 'huge-web-site.md',
     date: '2019/09/02',
+  },
+  {
+    name: '技术博客：前端国际化方案选择',
+    link: 'i18n.md',
+    date: '2019/06/10',
   },
   {
     name: '读书笔记：演讲的力量',
