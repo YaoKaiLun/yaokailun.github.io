@@ -1,7 +1,7 @@
 window.doingThings = [
   {
     name: '学车',
-    start: '2019/05、03',
+    start: '2019/05/03',
   },
 ]
 
@@ -60,6 +60,16 @@ window.readedBooks = [
     name: 'Android Apprentice',
     start: '2019/07/06',
     end: '2019-',
+  },
+  {
+    name: '时间的形状：相对论史话',
+    start: '2019/09/16',
+    end: '2019-',
+  },
+  {
+    name: '上帝掷骰子吗？：量子物理实话',
+    start: '2019/09/07',
+    end: '2019/09/16',
   },
   {
     name: '浪潮之巅(第四版 下)',
