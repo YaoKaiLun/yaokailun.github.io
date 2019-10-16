@@ -52,19 +52,29 @@ window.finishedTasks = [
 
 window.readedBooks = [
   {
-    name: '代码之美',
-    start: '2019/09/05',
-    end: '2019/-',
+    name: '人类的群星闪耀时',
+    start: '2019/10/17',
+    end: '-',
   },
   {
-    name: 'Android Apprentice',
-    start: '2019/07/06',
-    end: '2019-',
+    name: '数学女孩（1-4）',
+    start: '2019/09/28',
+    end: '-',
+  },
+  {
+    name: '世界观',
+    start: '2019/09/07',
+    end: '2019/10/16',
+  },
+  {
+    name: '全球科技通史',
+    start: '2019/09/22',
+    end: '2019/10/14',
   },
   {
     name: '时间的形状：相对论史话',
     start: '2019/09/16',
-    end: '2019-',
+    end: '2019/09/21',
   },
   {
     name: '上帝掷骰子吗？：量子物理实话',
