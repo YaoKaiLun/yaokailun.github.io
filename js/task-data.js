@@ -3,6 +3,14 @@ window.doingThings = [
     name: '学车',
     start: '2019/05/03',
   },
+  {
+    name: '吴军·数学通识 50 讲（得到音频课程）',
+    start: '2019/11/04',
+  },
+  {
+    name: '薛兆丰的经济学课（得到音频课程）',
+    start: '2019/11/15',
+  },
 ]
 
 
@@ -51,6 +59,16 @@ window.finishedTasks = [
 
 
 window.readedBooks = [
+  {
+    name: '数学大师',
+    start: '2019/11/01',
+    end: '-',
+  },
+  {
+    name: '在线（王坚）',
+    start: '2019/11/24',
+    end: '-',
+  },
   {
     name: '人类的群星闪耀时',
     start: '2019/10/17',
