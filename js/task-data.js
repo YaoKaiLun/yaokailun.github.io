@@ -1,7 +1,11 @@
 window.doingThings = [
   {
-    name: '学车',
-    start: '2019/05/03',
+    name: '许式伟的架构课（极客时间）',
+    start: '-',
+  },
+  {
+    name: '从 0 打造音视频直播系统（极客时间）',
+    start: '2020/01/03',
   },
   {
     name: '薛兆丰的经济学课（得到音频课程）',
@@ -11,6 +15,11 @@ window.doingThings = [
 
 
 window.finishedTasks = [
+  {
+    name: '学车',
+    start: '2019/05/03',
+    end: '2020/01/08',
+  },
   {
     name: '吴军·数学通识 50 讲（得到音频课程）',
     start: '2019/11/04',
@@ -61,14 +70,14 @@ window.finishedTasks = [
 
 window.readedBooks = [
   {
-    name: '数学大师',
-    start: '2019/11/01',
-    end: '-',
-  },
-  {
     name: '在线（王坚）',
     start: '2019/11/24',
     end: '-',
+  },
+  {
+    name: '数学大师',
+    start: '2019/11/01',
+    end: '2019/12/26',
   },
   {
     name: '人类的群星闪耀时',
