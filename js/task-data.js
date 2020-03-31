@@ -1,11 +1,7 @@
 window.doingThings = [
   {
     name: '许式伟的架构课（极客时间）',
-    start: '-',
-  },
-  {
-    name: '从 0 打造音视频直播系统（极客时间）',
-    start: '2020/01/03',
+    start: '2020/03/03',
   },
   {
     name: '薛兆丰的经济学课（得到音频课程）',
@@ -15,6 +11,11 @@ window.doingThings = [
 
 
 window.finishedTasks = [
+  {
+    name: '从 0 打造音视频直播系统（极客时间）',
+    start: '2020/01/03',
+    end: '2020/01/11',
+  },
   {
     name: '学车',
     start: '2019/05/03',
