@@ -3,6 +3,14 @@ window.doingThings = [
     name: '薛兆丰的经济学课（得到音频课程）',
     start: '2019/11/15',
   },
+  {
+    name: '跟月影学可视化（极客时间）',
+    start: '2020/06/24',
+  },
+  {
+    name: 'The Complete 2020 Flutter Development Bootcamp with Dart (Udemy)',
+    start: '2020/05/01',
+  },
 ]
 
 
@@ -72,9 +80,14 @@ window.finishedTasks = [
 
 window.readedBooks = [
   {
+    name: 'webgl 编程指南',
+    start: '2020/06/23',
+    end: '-',
+  },
+  {
     name: '在线（王坚）',
     start: '2019/11/24',
-    end: '-',
+    end: '2020/07/06',
   },
   {
     name: '数学大师',
