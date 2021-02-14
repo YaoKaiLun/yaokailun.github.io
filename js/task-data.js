@@ -95,9 +95,14 @@ window.finishedTasks = [
 
 window.readedBooks = [
   {
+    name: '不拘一格',
+    start: '2021/01/13',
+    end: '2021/02/03',
+  },
+  {
     name: 'webgl 编程指南',
     start: '2020/06/23',
-    end: '-',
+    end: '2020/07/15',
   },
   {
     name: '在线（王坚）',
