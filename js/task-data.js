@@ -1,20 +1,35 @@
 window.doingThings = [
   {
-    name: '薛兆丰的经济学课（得到音频课程）',
+    name: '香帅的北大金融学课（得到课程）',
+    start: '2021/02/13',
+  },
+  {
+    name: '吴军·硅谷来信第三季（得到课程）',
+    start: '2021/01/07',
+  },
+  {
+    name: '薛兆丰的经济学课（得到课程）',
     start: '2019/11/15',
-  },
-  {
-    name: '跟月影学可视化（极客时间）',
-    start: '2020/06/24',
-  },
-  {
-    name: 'The Complete 2020 Flutter Development Bootcamp with Dart (Udemy)',
-    start: '2020/05/01',
   },
 ]
 
 
 window.finishedTasks = [
+  {
+    name: '张潇雨·个人投资课（得到课程）',
+    start: '2021/02/08',
+    end: '2021/02/13',
+  },
+  {
+    name: '跟月影学可视化（极客时间）',
+    start: '2020/06/24',
+    end: '2020/10/20',
+  },
+  {
+    name: 'The Complete 2020 Flutter Development Bootcamp with Dart (Udemy)',
+    start: '2020/05/01',
+    end: '2020/06/02',
+  },
   {
     name: '许式伟的架构课（极客时间）',
     start: '2020/03/03',
