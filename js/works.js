@@ -57,8 +57,10 @@ class Works extends React.Component {
         <div class="row">
           <div class="col-12 col-sm-12 col-md-10 offset-md-1 col-lg-8 offset-lg-2">
             <h4 class="title mb-4 mb-md-5">作品集</h4>
-            <h6 class="company mb-2 mb-md-3">广州爱范儿科技股份有限公司（Oct, 2016 - now）</h6>
-            <WorksList worksData={window.worksData}/>
+            <h6 class="company mb-2 mb-md-3">CVTE 视源股份（Feb, 2019 - now）</h6>
+            <WorksList worksData={window.cvteWorksData}/>
+            <h6 class="company mb-2 mb-md-3">广州爱范儿科技股份有限公司（Oct, 2016 - Feb, 2019）</h6>
+            <WorksList worksData={window.ifanrWorksData}/>
           </div>
         </div>
       </div>
