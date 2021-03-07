@@ -1,4 +1,4 @@
-window.worksData = [
+window.ifanrWorksData = [
   {
     type: 'normal',
     title: '<a target="_blank" href="https://www.ifanr.com">爱范儿 ifanr.com</a>',
@@ -60,5 +60,23 @@ window.worksData = [
     `,
   }
 ]
+
+window.cvteWorksData = [
+  {
+    type: 'normal',
+    title: '<a target="_blank" href="https://easinote.seewo.com">希沃白板</a>',
+    date: 'Jan, 2021 -',
+    cover: './assets/ifanr.jpg',
+    content: '',
+  },
+  {
+    type: 'normal',
+    title: '<a target="_blank" href="https://enweb.seewo.com">enow(希沃白板跨平台)</a>',
+    date: 'May, 2020 - Dec, 2021',
+    cover: './assets/ifanrcloud.jpg',
+    content: '',
+  },
+]
+
 
 
