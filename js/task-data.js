@@ -92,9 +92,19 @@ window.finishedTasks = [
 
 window.readedBooks = [
   {
+    name: '蒂姆·库克传',
+    start: '2021/03/01',
+    end: '2021/03/09',
+  },
+  {
     name: '不拘一格',
     start: '2021/01/13',
     end: '2021/02/03',
+  },
+  {
+    name: '自动时代',
+    start: '2020/12/15',
+    end: '2021/12/29',
   },
   {
     name: 'webgl 编程指南',
