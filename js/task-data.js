@@ -1,5 +1,9 @@
 window.doingThings = [
   {
+    name: '数据结构与算法之美（极客时间）',
+    start: '2021/03/31',
+  },
+  {
     name: '吴军·硅谷来信第三季（得到课程）',
     start: '2021/01/07',
   },
@@ -7,7 +11,12 @@ window.doingThings = [
 
 
 window.finishedTasks = [
-    {
+  {
+    name: '透视HTTP协议（极客时间）',
+    start: '2021/03/23',
+    end: '2021/04/06',
+  },
+  {
     name: '香帅的北大金融学课（得到课程）',
     start: '2021/02/13',
     end: '2021/02/23',
