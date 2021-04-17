@@ -12,6 +12,11 @@ window.doingThings = [
 
 window.finishedTasks = [
   {
+    name: '数据结构与算法之美（极客时间）',
+    start: '2021/03/30',
+    end: '2021/04/17',
+  },
+  {
     name: '透视HTTP协议（极客时间）',
     start: '2021/03/23',
     end: '2021/04/06',
@@ -100,6 +105,11 @@ window.finishedTasks = [
 
 
 window.readedBooks = [
+  {
+    name: '支付战争',
+    start: '2021/04/17',
+    end: '-',
+  },
   {
     name: '蒂姆·库克传',
     start: '2021/03/01',
