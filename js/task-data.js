@@ -1,7 +1,7 @@
 window.doingThings = [
   {
-    name: '浏览器工作原理与实践（极客时间）',
-    start: '2021/04/20',
+    name: '朱赟的技术管理课',
+    start: '2021/04/22',
   },
   {
     name: '吴军·硅谷来信第三季（得到课程）',
@@ -11,6 +11,11 @@ window.doingThings = [
 
 
 window.finishedTasks = [
+  {
+    name: '浏览器工作原理与实践（极客时间）',
+    start: '2021/04/20',
+    end: '2021/04/29',
+  },
   {
     name: '数据结构与算法之美（极客时间）',
     start: '2021/03/30',
