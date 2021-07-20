@@ -111,6 +111,11 @@ window.finishedTasks = [
 
 window.readedBooks = [
   {
+    name: '球状闪电',
+    start: '2021/07/17',
+    end: '2021/07/19',
+  },
+  {
     name: '支付战争',
     start: '2021/04/17',
     end: '2021/04/21',
