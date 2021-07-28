@@ -111,6 +111,11 @@ window.finishedTasks = [
 
 window.readedBooks = [
   {
+    name: '超新星纪元',
+    start: '2021/07/22',
+    end: '2021/07/28',
+  },
+  {
     name: '球状闪电',
     start: '2021/07/17',
     end: '2021/07/19',
