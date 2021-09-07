@@ -3,6 +3,10 @@ window.doingThings = [
     name: '三体广播剧（喜马拉雅）',
     start: '2021/07/28',
   },
+  {
+    name: '智胜健身（喜马拉雅）',
+    start: '2021/08/08',
+  },
 ]
 
 
@@ -106,6 +110,11 @@ window.finishedTasks = [
 
 
 window.readedBooks = [
+  {
+    name: '囚徒健身',
+    start: '2021/08/30',
+    end: '-',
+  },
   {
     name: '超新星纪元',
     start: '2021/07/22',
