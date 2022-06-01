@@ -4,4 +4,4 @@
 
 Here are some ideas to get you started:
 
-- 目前在学习 WebGL、图形学
+- 目前在搞协同文档
