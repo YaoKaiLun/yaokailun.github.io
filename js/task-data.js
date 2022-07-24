@@ -118,6 +118,15 @@ window.finishedTasks = [
 
 window.readedBooks = [
   {
+    name: '创新者的窘境',
+    start: '2022/07',
+  },
+  {
+    name: '重新定义团队：谷歌如歌工作',
+    start: '2022/07',
+    end: '2022/07',
+  },
+  {
     name: '装修，做好三件事就够了',
     start: '2022/05',
     end: '2022/06',
