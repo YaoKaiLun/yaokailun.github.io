@@ -118,8 +118,13 @@ window.finishedTasks = [
 
 window.readedBooks = [
   {
+    name: '影响力',
+    start: '2022/07',
+  },
+  {
     name: '创新者的窘境',
     start: '2022/07',
+    end: '2022/08',
   },
   {
     name: '重新定义团队：谷歌如歌工作',
