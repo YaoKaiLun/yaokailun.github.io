@@ -118,8 +118,13 @@ window.finishedTasks = [
 
 window.readedBooks = [
   {
+    name: '赢',
+    start: '2022/08',
+  },
+  {
     name: '华为管理变革',
     start: '2022/08',
+    end: '2022/08',
   },
   {
     name: '影响力大师',
