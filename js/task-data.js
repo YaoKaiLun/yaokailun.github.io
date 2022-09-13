@@ -118,8 +118,22 @@ window.finishedTasks = [
 
 window.readedBooks = [
   {
+    name: '重新定义公司：谷歌是如何运营的',
+    start: '2022/09',
+  },
+  {
+    name: '小家，越住越大2',
+    start: '2022/09',
+  },
+  {
+    name: '小家大变局',
+    start: '2022/09',
+    end: '2022/09',
+  },
+  {
     name: '赢',
     start: '2022/08',
+    end: '2022/09',
   },
   {
     name: '华为管理变革',
@@ -137,7 +151,7 @@ window.readedBooks = [
     end: '2022/08',
   },
   {
-    name: '重新定义团队：谷歌如歌工作',
+    name: '重新定义团队：谷歌如何工作',
     start: '2022/07',
     end: '2022/07',
   },
