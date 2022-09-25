@@ -118,13 +118,18 @@ window.finishedTasks = [
 
 window.readedBooks = [
   {
-    name: '重新定义公司：谷歌是如何运营的',
+    name: '小家，越住越大2',
+    start: '2022/09',
+  },
+  {
+    name: '小家，越住越大3',
     start: '2022/09',
     end: '2022/09',
   },
   {
-    name: '小家，越住越大2',
+    name: '重新定义公司：谷歌是如何运营的',
     start: '2022/09',
+    end: '2022/09',
   },
   {
     name: '小家大变局',
