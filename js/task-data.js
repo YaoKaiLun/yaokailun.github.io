@@ -122,6 +122,11 @@ window.readedBooks = [
     start: '2022/09',
   },
   {
+    name: '俞军的产品方法论',
+    start: '2022/10',
+    end: '2022/10',
+  },
+  {
     name: '幕后产品',
     start: '2022/10',
     end: '2022/10',
