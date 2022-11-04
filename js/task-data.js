@@ -1,10 +1,13 @@
 window.doingThings = [
-
+ {
+    name: '超级访谈：对话玉伯',
+    start: '2022/10',
+  },
 ]
 
 
 window.finishedTasks = [
- {
+  {
     name: '三体广播剧（喜马拉雅）',
     start: '2021/07/28',
     end: '-'
@@ -118,8 +121,25 @@ window.finishedTasks = [
 
 window.readedBooks = [
   {
+    name: '置身事内：中国政府与经济发展',
+    start: '2022/11',
+  },
+  {
+    name: '做对产品',
+    start: '2022/11',
+  },
+  {
     name: '小家，越住越大2',
     start: '2022/09',
+  },
+   {
+    name: '爱弥尔',
+    start: '2022/06',
+  },
+  {
+    name: '学会提问',
+    start: '2022/10',
+    end: '2022/11',
   },
   {
     name: '俞军的产品方法论',
