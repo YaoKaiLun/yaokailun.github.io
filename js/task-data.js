@@ -121,10 +121,6 @@ window.finishedTasks = [
 
 window.readedBooks = [
   {
-    name: '置身事内：中国政府与经济发展',
-    start: '2022/11',
-  },
-  {
     name: '做对产品',
     start: '2022/11',
   },
@@ -135,6 +131,11 @@ window.readedBooks = [
    {
     name: '爱弥尔',
     start: '2022/06',
+  },
+  {
+    name: '置身事内：中国政府与经济发展',
+    start: '2022/11',
+    end: '2022/11',
   },
   {
     name: '学会提问',
