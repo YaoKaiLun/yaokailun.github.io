@@ -133,6 +133,11 @@ window.readedBooks = [
     start: '2022/06',
   },
   {
+    name: '法治的细节',
+    start: '2022/11',
+    end: '2022/11',
+  },
+  {
     name: '可能性的艺术',
     start: '2022/11',
     end: '2022/11',
