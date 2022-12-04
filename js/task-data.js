@@ -133,6 +133,11 @@ window.readedBooks = [
     start: '2022/06',
   },
   {
+    name: '李光耀观世界',
+    start: '2022/12',
+    end: '2022/12',
+  },
+  {
     name: '法治的细节',
     start: '2022/11',
     end: '2022/11',
