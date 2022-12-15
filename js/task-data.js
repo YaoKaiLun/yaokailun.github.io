@@ -133,6 +133,11 @@ window.readedBooks = [
     start: '2022/06',
   },
   {
+    name: '邓小平时代',
+    start: '2022/12',
+    end: '2022/12',
+  },
+  {
     name: '李光耀观世界',
     start: '2022/12',
     end: '2022/12',
