@@ -133,6 +133,11 @@ window.readedBooks = [
     start: '2022/06',
   },
   {
+    name: '从一到无穷大',
+    start: '2022/12',
+    end: '2023/2',
+  },
+  {
     name: '邓小平时代',
     start: '2022/12',
     end: '2022/12',
