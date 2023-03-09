@@ -1,16 +1,22 @@
 window.doingThings = [
- {
-    name: '超级访谈：对话玉伯',
-    start: '2022/10',
+  {
+    name: '行楷 30 天练字计划',
+    start: '2023/2',
+    end: '-',
   },
 ]
 
 
 window.finishedTasks = [
   {
+    name: '超级访谈：对话玉伯',
+    start: '2022/10',
+    end: '2022/12',
+  },
+  {
     name: '三体广播剧（喜马拉雅）',
     start: '2021/07/28',
-    end: '-'
+    end:'2021/09',
   },
   {
     name: '吴军·硅谷来信第三季（得到课程）',
