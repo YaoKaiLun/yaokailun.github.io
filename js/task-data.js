@@ -139,6 +139,11 @@ window.readedBooks = [
     start: '2022/06',
   },
   {
+    name: 'Vue.js 设计与实现',
+    start: '2023/3',
+    end: '2023/3',
+  },
+  {
     name: '筚路维艰：中国社会主义路径的五次选择',
     start: '2023/3',
     end: '2023/3',
