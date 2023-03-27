@@ -139,6 +139,16 @@ window.readedBooks = [
     start: '2022/06',
   },
   {
+    name: '中国历代政治得失（汉英对照）',
+    start: '2023/3',
+    end: '2023/3',
+  },
+  {
+    name: 'React 设计原理',
+    start: '2023/3',
+    end: '2023/3',
+  },
+  {
     name: 'Vue.js 设计与实现',
     start: '2023/3',
     end: '2023/3',
