@@ -127,16 +127,9 @@ window.finishedTasks = [
 
 window.readedBooks = [
   {
-    name: '做对产品',
-    start: '2022/11',
-  },
-  {
-    name: '小家，越住越大2',
-    start: '2022/09',
-  },
-   {
-    name: '爱弥尔',
-    start: '2022/06',
+    name: '硅谷钢铁侠',
+    start: '2023/4',
+    end: '2023/4',
   },
   {
     name: '芯片战争',
