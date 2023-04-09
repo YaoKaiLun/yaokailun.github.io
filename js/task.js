@@ -66,8 +66,6 @@ class Task extends React.Component {
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
             <a class="nav-item nav-link active" href="#">任务</a>
-            <a class="nav-item nav-link" target="_blank" href="../notes.html">笔记</a>
-            <a class="nav-item nav-link" target="_blank" href="../works.html">作品集</a>
           </div>
         </div>
       </nav>
