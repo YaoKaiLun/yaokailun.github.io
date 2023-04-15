@@ -127,6 +127,11 @@ window.finishedTasks = [
 
 window.readedBooks = [
   {
+    name: '深度学习革命',
+    start: '2023/4',
+    end: '2023/4',
+  },
+  {
     name: '硅谷钢铁侠',
     start: '2023/4',
     end: '2023/4',
