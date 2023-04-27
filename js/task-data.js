@@ -9,6 +9,14 @@ window.doingThings = [
 
 window.finishedTasks = [
   {
+    name: '前沿课·吴军讲 GPT',
+    start: '2023/04',
+  },
+    {
+    name: 'AI 大模型之美',
+    start: '2023/04',
+  },
+  {
     name: '超级访谈：对话玉伯',
     start: '2022/10',
     end: '2022/12',
@@ -126,6 +134,16 @@ window.finishedTasks = [
 
 
 window.readedBooks = [
+  {
+    name: 'AIGC 智能创作时代',
+    start: '2023/4',
+    end: '2023/4',
+  },
+  {
+    name: 'AI 未来进行式（李开复）',
+    start: '2023/4',
+    end: '2023/4',
+  },
   {
     name: '深度学习革命',
     start: '2023/4',
