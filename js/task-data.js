@@ -135,6 +135,16 @@ window.finishedTasks = [
 
 window.readedBooks = [
   {
+    name: '安卓传奇',
+    start: '2023/5',
+    end: '2023/5',
+  },
+  {
+    name: '科学之路',
+    start: '2023/5',
+    end: '2023/5',
+  },
+  {
     name: 'AIGC 智能创作时代',
     start: '2023/4',
     end: '2023/4',
