@@ -11,6 +11,7 @@ window.finishedTasks = [
   {
     name: '前沿课·吴军讲 GPT',
     start: '2023/04',
+    end: '2023/05',
   },
     {
     name: 'AI 大模型之美',
@@ -134,6 +135,15 @@ window.finishedTasks = [
 
 
 window.readedBooks = [
+  {
+    name: '雪崩',
+    start: '2023/5',
+  },
+  {
+    name: '自然语言处理：基于预训练模型的方法',
+    start: '2023/5',
+    end: '2023/5',
+  },
   {
     name: '安卓传奇',
     start: '2023/5',
