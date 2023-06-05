@@ -136,8 +136,14 @@ window.finishedTasks = [
 
 window.readedBooks = [
   {
+    name: '卓有成效的工程师',
+    start: '2023/5',
+     end: '2023/6',
+  },
+  {
     name: '雪崩',
     start: '2023/5',
+     end: '2023/5',
   },
   {
     name: '自然语言处理：基于预训练模型的方法',
