@@ -136,6 +136,11 @@ window.finishedTasks = [
 
 window.readedBooks = [
   {
+    name: '明日之战',
+    start: '2023/6',
+     end: '2023/6',
+  },
+  {
     name: '卓有成效的工程师',
     start: '2023/5',
      end: '2023/6',
