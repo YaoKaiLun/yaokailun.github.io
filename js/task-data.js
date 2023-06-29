@@ -136,6 +136,16 @@ window.finishedTasks = [
 
 window.readedBooks = [
   {
+    name: '惊人的超慢跑',
+    start: '2023/6',
+     end: '2023/6',
+  },
+  {
+    name: '解密 instagram: 一款拍照软件如何改变社交',
+    start: '2023/6',
+     end: '2023/6',
+  },
+  {
     name: '明日之战',
     start: '2023/6',
      end: '2023/6',
