@@ -136,6 +136,21 @@ window.finishedTasks = [
 
 window.readedBooks = [
   {
+    name: 'M 型社会',
+    start: '2023/7',
+    end: '2023/7',
+  },
+  {
+    name: '纳瓦尔宝典',
+    start: '2023/7',
+    end: '2023/7',
+  },
+  {
+    name: '冲浪板上的公司',
+    start: '2023/7',
+    end: '2023/7',
+  },
+  {
     name: '惊人的超慢跑',
     start: '2023/6',
      end: '2023/6',
