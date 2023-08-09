@@ -136,6 +136,15 @@ window.finishedTasks = [
 
 window.readedBooks = [
   {
+    name: ‘褚时健传',
+    start: '2023/8',
+  },
+  {
+    name: '跨越鸿沟',
+    start: '2023/8',
+    end: '2023/8',
+  },
+  {
     name: 'M 型社会',
     start: '2023/7',
     end: '2023/7',
