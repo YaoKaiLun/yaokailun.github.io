@@ -138,6 +138,7 @@ window.readedBooks = [
   {
     name: ‘褚时健传',
     start: '2023/8',
+    end: '-'
   },
   {
     name: '跨越鸿沟',
