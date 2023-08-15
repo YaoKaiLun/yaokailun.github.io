@@ -136,9 +136,14 @@ window.finishedTasks = [
 
 window.readedBooks = [
   {
+    name: '别闹了，费曼先生！',
+    start: '2023/8',
+    end: '2023/8',
+  },
+  {
     name: '褚时健传',
     start: '2023/8',
-    end: '-',
+    end: '2023/8',
   },
   {
     name: '跨越鸿沟',
