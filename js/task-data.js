@@ -136,7 +136,22 @@ window.finishedTasks = [
 
 window.readedBooks = [
   {
-    name: '别闹了，费曼先生！',
+    name: '傅雷家书',
+    start: '2023/8',
+    end: '-',
+  },
+    {
+    name: '以奋斗者为本（华为）',
+    start: '2023/8',
+    end: '-',
+  },
+  {
+    name: '一朵云推动另一朵云（俞敏洪）',
+    start: '2023/8',
+    end: '2023/8',
+  },
+  {
+    name: '别逗了，费曼先生！',
     start: '2023/8',
     end: '2023/8',
   },
