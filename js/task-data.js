@@ -143,7 +143,7 @@ window.readedBooks = [
     {
     name: '以奋斗者为本（华为）',
     start: '2023/8',
-    end: '-',
+    end: '2023/9',
   },
   {
     name: '一朵云推动另一朵云（俞敏洪）',
