@@ -136,11 +136,26 @@ window.finishedTasks = [
 
 window.readedBooks = [
   {
+    name: '西安史话',
+    start: '2023/9',
+    end: '-',
+  },
+  {
     name: '傅雷家书',
     start: '2023/8',
     end: '-',
   },
-    {
+  {
+    name: '中国的选择',
+    start: '2023/9',
+    end: '2023/9',
+  },
+  {
+    name: '价值（张磊）',
+    start: '2023/9',
+    end: '2023/9',
+  },
+  {
     name: '以奋斗者为本（华为）',
     start: '2023/8',
     end: '2023/9',
