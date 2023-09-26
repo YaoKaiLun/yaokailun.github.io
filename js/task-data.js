@@ -136,19 +136,14 @@ window.finishedTasks = [
 
 window.readedBooks = [
   {
-    name: '哲学家们都干了些什么',
-    start: '2023/9',
-    end: '-',
-  },
-  {
-    name: '西安史话',
-    start: '2023/9',
-    end: '-',
-  },
-  {
     name: '傅雷家书',
     start: '2023/8',
-    end: '-',
+    end: 2023/9',
+  },
+  {
+    name: '哲学家们都干了些什么',
+    start: '2023/9',
+    end: 2023/9',
   },
   {
     name: '大国锁钥',
