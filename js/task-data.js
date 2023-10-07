@@ -9,13 +9,18 @@ window.doingThings = [
 
 window.finishedTasks = [
   {
+    name: 'AI 大模型之美',
+    start: '2023/04',
+  },
+  {
     name: '前沿课·吴军讲 GPT',
     start: '2023/04',
     end: '2023/05',
   },
-    {
-    name: 'AI 大模型之美',
-    start: '2023/04',
+  {
+    name: '超级访谈：对话道哥',
+    start: '2023/10',
+    end: '2023/10',
   },
   {
     name: '超级访谈：对话玉伯',
@@ -136,14 +141,24 @@ window.finishedTasks = [
 
 window.readedBooks = [
   {
+    name: '白帽子讲 Web 安全（第二版）',
+    start: '2023/10',
+    end: ‘-',
+  },
+  {
+    name: '苏菲的世界',
+    start: '2023/10',
+    end: '2023/10',
+  },
+  {
     name: '傅雷家书',
     start: '2023/8',
-    end: 2023/9',
+    end: '2023/9',
   },
   {
     name: '哲学家们都干了些什么',
     start: '2023/9',
-    end: 2023/9',
+    end: '2023/9',
   },
   {
     name: '大国锁钥',
