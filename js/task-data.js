@@ -143,7 +143,7 @@ window.readedBooks = [
   {
     name: '白帽子讲 Web 安全（第二版）',
     start: '2023/10',
-    end: ‘-',
+    end: '-',
   },
   {
     name: '苏菲的世界',
