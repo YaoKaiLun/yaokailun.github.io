@@ -141,9 +141,14 @@ window.finishedTasks = [
 
 window.readedBooks = [
   {
-    name: '白帽子讲 Web 安全（第二版）',
+    name: '中国哲学简史（冯友兰）',
     start: '2023/10',
     end: '-',
+  },
+  {
+    name: '白帽子讲 Web 安全（第二版）',
+    start: '2023/10',
+    end: '2023/10',
   },
   {
     name: '苏菲的世界',
