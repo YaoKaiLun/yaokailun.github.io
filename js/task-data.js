@@ -13,14 +13,14 @@ window.finishedTasks = [
     start: '2023/04',
   },
   {
-    name: '前沿课·吴军讲 GPT',
-    start: '2023/04',
-    end: '2023/05',
-  },
-  {
     name: '超级访谈：对话道哥',
     start: '2023/10',
     end: '2023/10',
+  },
+  {
+    name: '前沿课·吴军讲 GPT',
+    start: '2023/04',
+    end: '2023/05',
   },
   {
     name: '超级访谈：对话玉伯',
@@ -141,9 +141,14 @@ window.finishedTasks = [
 
 window.readedBooks = [
   {
+    name: 'Unix 传奇',
+    start: '2023/10',
+    end: '2023/10',
+  },
+  {
     name: '中国哲学简史（冯友兰）',
     start: '2023/10',
-    end: '-',
+    end: '2023/10',
   },
   {
     name: '知行：技术人的管理之路（第二版）',
