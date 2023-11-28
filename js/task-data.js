@@ -141,6 +141,31 @@ window.finishedTasks = [
 
 window.readedBooks = [
   {
+    name: '文明之光（第一册）',
+    start: '2023/11',
+    end: '-',
+  },
+  {
+    name: '图解量子计算机',
+    start: '2023/11',
+    end: '-',
+  },
+  {
+    name: '计算',
+    start: '2023/11',
+    end: '-',
+  },
+  {
+    name: '超越好奇',
+    start: '2023/11',
+    end: '2023/11',
+  },
+  {
+    name: '生生不息',
+    start: '2023/11',
+    end: '2023/11',
+  },
+  {
     name: 'Unix 传奇',
     start: '2023/10',
     end: '2023/10',
