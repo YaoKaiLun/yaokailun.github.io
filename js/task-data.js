@@ -153,7 +153,7 @@ window.readedBooks = [
   {
     name: '计算',
     start: '2023/11',
-    end: '-',
+    end: '2023/11',
   },
   {
     name: '超越好奇',
