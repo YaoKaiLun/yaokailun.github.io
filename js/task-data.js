@@ -141,14 +141,14 @@ window.finishedTasks = [
 
 window.readedBooks = [
   {
-    name: '文明之光（第一册）',
+    name: '文明之光（第二册）',
     start: '2023/11',
     end: '-',
   },
   {
-    name: '图解量子计算机',
+    name: '文明之光（第一册）',
     start: '2023/11',
-    end: '-',
+    end: '2023/12',
   },
   {
     name: '计算',
