@@ -141,12 +141,7 @@ window.finishedTasks = [
 
 window.readedBooks = [
   {
-    name: '文明之光（第二册）',
-    start: '2023/11',
-    end: '-',
-  },
-  {
-    name: '文明之光（第一册）',
+    name: '文明之光（全四册）',
     start: '2023/11',
     end: '2023/12',
   },
