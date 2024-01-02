@@ -141,6 +141,16 @@ window.finishedTasks = [
 
 window.readedBooks = [
   {
+    name: '架构整洁之道',
+    start: '2023/12',
+    end: '-',
+  },
+  {
+    name: 'Rust 程序设计（第2版）',
+    start: '2023/12',
+    end: '2024/2',
+  },
+  {
     name: '文明之光（全四册）',
     start: '2023/11',
     end: '2023/12',
