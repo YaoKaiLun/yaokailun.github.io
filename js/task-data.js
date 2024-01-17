@@ -9,8 +9,14 @@ window.doingThings = [
 
 window.finishedTasks = [
   {
+    name: 'Rust 编程第一课（陈天）',
+    start: '2024/01',
+    end: '-',
+  },
+  {
     name: 'AI 大模型之美',
     start: '2023/04',
+     end: '-',
   },
   {
     name: '超级访谈：对话道哥',
@@ -143,12 +149,12 @@ window.readedBooks = [
   {
     name: '架构整洁之道',
     start: '2023/12',
-    end: '-',
+    end: '2024/1',
   },
   {
     name: 'Rust 程序设计（第2版）',
     start: '2023/12',
-    end: '2024/2',
+    end: '2024/1',
   },
   {
     name: '文明之光（全四册）',
