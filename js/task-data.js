@@ -147,6 +147,11 @@ window.finishedTasks = [
 
 window.readedBooks = [
   {
+    name: '数据密集型应用系统设计',
+    start: '2024/2',
+    end: '2024/2',
+  },
+  {
     name: 'C++ 语言的设计与演化',
     start: '2024/1',
     end: '2024/2',
