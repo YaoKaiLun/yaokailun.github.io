@@ -147,6 +147,21 @@ window.finishedTasks = [
 
 window.readedBooks = [
   {
+    name: '海蒂怀孕大百科',
+    start: '2024/2',
+    end: '2024/2',
+  },
+  {
+    name: '换道赛车：新能源汽车的中国道路',
+    start: '2024/2',
+    end: '2024/2',
+  },
+  {
+    name: '数据密集型应用系统设计',
+    start: '2024/2',
+    end: '2024/2',
+  },
+  {
     name: '数据密集型应用系统设计',
     start: '2024/2',
     end: '2024/2',
