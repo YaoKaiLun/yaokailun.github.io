@@ -147,6 +147,11 @@ window.finishedTasks = [
 
 window.readedBooks = [
   {
+    name: '左耳听风',
+    start: '2024/4',
+    end: '2024/4',
+  },
+  {
     name: '海蒂怀孕大百科',
     start: '2024/2',
     end: '2024/2',
