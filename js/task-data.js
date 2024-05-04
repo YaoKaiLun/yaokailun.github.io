@@ -147,6 +147,16 @@ window.finishedTasks = [
 
 window.readedBooks = [
   {
+    name: '我看见的世界（李飞飞）',
+    start: '2024/5',
+    end: '2024/5',
+  },
+  {
+    name: '脉络（吴军）',
+    start: '2024/5',
+    end: '2024/4',
+  },
+  {
     name: '左耳听风',
     start: '2024/4',
     end: '2024/4',
