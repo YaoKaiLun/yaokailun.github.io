@@ -147,6 +147,16 @@ window.finishedTasks = [
 
 window.readedBooks = [
   {
+    name: '极限高压（特斯拉，埃隆·马斯克与世纪之赌）',
+    start: '2024/5',
+    end: '2024/5',
+  },
+  {
+    name: '心若菩提',
+    start: '2024/5',
+    end: '2024/5',
+  },
+  {
     name: '我看见的世界（李飞飞）',
     start: '2024/5',
     end: '2024/5',
