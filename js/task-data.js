@@ -147,6 +147,21 @@ window.finishedTasks = [
 
 window.readedBooks = [
   {
+    name: '一本书看懂新能源汽车',
+    start: '2024/6',
+    end: '-',
+  },
+  {
+    name: '一本书读懂财报（肖星）',
+    start: '2024/6',
+    end: '2024/6',
+  },
+  {
+    name: '供应链攻防战',
+    start: '2024/6',
+    end: '2024/6',
+  },
+  {
     name: '极限高压（特斯拉，埃隆·马斯克与世纪之赌）',
     start: '2024/5',
     end: '2024/5',
