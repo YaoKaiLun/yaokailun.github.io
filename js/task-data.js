@@ -147,9 +147,19 @@ window.finishedTasks = [
 
 window.readedBooks = [
   {
-    name: '一本书看懂新能源汽车',
+    name: '剑指 Offer（第二版）',
     start: '2024/6',
     end: '-',
+  },
+  {
+    name: '室内装修施工全书',
+    start: '2024/6',
+    end: '2024/6',
+  },
+  {
+    name: '一本书看懂新能源汽车',
+    start: '2024/6',
+    end: '2024/6',
   },
   {
     name: '一本书读懂财报（肖星）',
