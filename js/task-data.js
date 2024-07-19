@@ -149,7 +149,7 @@ window.readedBooks = [
   {
     name: '剑指 Offer（第二版）',
     start: '2024/6',
-    end: '-',
+    end: '2024/7',
   },
   {
     name: '室内装修施工全书',
