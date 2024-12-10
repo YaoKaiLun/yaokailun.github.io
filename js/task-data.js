@@ -147,6 +147,11 @@ window.finishedTasks = [
 
 window.readedBooks = [
   {
+    name: '名车',
+    start: '2024/12',
+    end: '2024/12',
+  },
+  {
     name: '实用程序育儿法',
     start: '2024/11',
     end: '2024/11',
