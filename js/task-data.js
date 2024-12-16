@@ -147,6 +147,11 @@ window.finishedTasks = [
 
 window.readedBooks = [
   {
+    name: '李书福：守正出奇',
+    start: '2024/12',
+    end: '2024/12',
+  },
+  {
     name: '名车',
     start: '2024/12',
     end: '2024/12',
