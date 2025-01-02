@@ -147,6 +147,26 @@ window.finishedTasks = [
 
 window.readedBooks = [
   {
+    name: '张忠谋自传（下册）',
+    start: '2025/1',
+    end: '2025/1',
+  },
+    {
+    name: '张忠谋自传（上册）',
+    start: '2024/12',
+    end: '2024/12',
+  },
+  {
+    name: '英伟达之道',
+    start: '2024/12',
+    end: '2024/12',
+  },
+  {
+    name: '奥尔特曼传',
+    start: '2024/12',
+    end: '2024/12',
+  },
+  {
     name: '李书福：守正出奇',
     start: '2024/12',
     end: '2024/12',
