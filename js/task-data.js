@@ -147,11 +147,16 @@ window.finishedTasks = [
 
 window.readedBooks = [
   {
+    name: '大话自动驾驶',
+    start: '2025/1',
+    end: '2025/1',
+  },
+  {
     name: '张忠谋自传（下册）',
     start: '2025/1',
     end: '2025/1',
   },
-    {
+  {
     name: '张忠谋自传（上册）',
     start: '2024/12',
     end: '2024/12',
