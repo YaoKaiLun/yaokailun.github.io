@@ -147,6 +147,26 @@ window.finishedTasks = [
 
 window.readedBooks = [
   {
+    name: ' 大模型 RAG 实战',
+    start: '2025/2',
+    end: '2025/2',
+  },
+  {
+    name: ' GPT 图解',
+    start: '2025/2',
+    end: '2025/2',
+  },
+  {
+    name: '汽车为什么会跑（图解汽车结构与原理）',
+    start: '2025/1',
+    end: '2025/1',
+  },
+  {
+    name: '我在通用汽车的岁月',
+    start: '2025/1',
+    end: '2025/1',
+  },
+  {
     name: '大话自动驾驶',
     start: '2025/1',
     end: '2025/1',
