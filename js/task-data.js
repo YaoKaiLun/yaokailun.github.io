@@ -1,7 +1,7 @@
 window.doingThings = [
   {
-    name: '行楷 30 天练字计划',
-    start: '2023/2',
+    name: '开发一款 AI 应用',
+    start: '2025/02',
     end: '-',
   },
 ]
@@ -27,6 +27,11 @@ window.finishedTasks = [
     name: '前沿课·吴军讲 GPT',
     start: '2023/04',
     end: '2023/05',
+  },
+  {
+    name: '行楷 30 天练字计划',
+    start: '2023/2',
+    end: '2023/4',
   },
   {
     name: '超级访谈：对话玉伯',
@@ -146,6 +151,11 @@ window.finishedTasks = [
 
 
 window.readedBooks = [
+  {
+    name: ' 大模型应用开发 动手做AI Agent',
+    start: '2025/2',
+    end: '2025/2',
+  },
   {
     name: ' 大模型 RAG 实战',
     start: '2025/2',

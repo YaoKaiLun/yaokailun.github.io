@@ -3,7 +3,7 @@
   height: 100vh;
   overflow-x: hidden;
   overflow-y: scroll;
-  background: linear-gradient(40deg,#2096ff,#05ffa3);
+  background: linear-gradient(135deg, #f5f2e9 0%, #e8e0d1 100%);
 }
 
 .my-navbar {
@@ -16,7 +16,7 @@
 
 .my-navbar .active {
   font-weight: bold;
-  color: darkorange !important;
+  color: #2c3e50 !important;
 }
 
 .navbar-toggler {
@@ -30,33 +30,91 @@
 }
 
 .card-1 {
-  background: #20c997 !important;
+  background: #4a6b8a !important;
 }
 
 .card-2 {
-  background: #00cbff !important;
+  background: #34495e !important;
+}
+
+.card-3 {
+  background: #ecf0f1 !important;
 }
 
 .card-1-content {
-  color: #fff !important;
+  color: #ffffff !important;
 }
 
 .card-2-content {
-  color: #fff !important;
+  color: #ffffff !important;
 }
 
 .card-3-content {
-  color: #000 !important;
+  color: #212529 !important;
 }
 
 .card-body {
   max-height: 82vh;
-  overflow: scroll;
+  overflow-y: auto;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 3px;
+}
+
+.card-1 ::-webkit-scrollbar-thumb,
+.card-2 ::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.card-1 ::-webkit-scrollbar-thumb:hover,
+.card-2 ::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.card-3 ::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.card-3 ::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.card {
+  border-radius: 6px;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
 }
 
 .list-group-item {
   color: #fff;
   padding: .5rem .2rem;
+  margin-bottom: 6px;
+  border-top: 0;
+  opacity: 0;
+  animation: fadeIn 0.5s ease forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .list-group-item p {
