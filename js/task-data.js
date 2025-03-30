@@ -152,17 +152,27 @@ window.finishedTasks = [
 
 window.readedBooks = [
   {
-    name: ' 大模型应用开发 动手做AI Agent',
+    name: 'YouTube 视频之王的崛起之路',
+    start: '2025/3',
+    end: '2025/3',
+  },
+  {
+    name: '区块链启示录',
     start: '2025/2',
     end: '2025/2',
   },
   {
-    name: ' 大模型 RAG 实战',
+    name: '大模型应用开发 动手做AI Agent',
     start: '2025/2',
     end: '2025/2',
   },
   {
-    name: ' GPT 图解',
+    name: '大模型 RAG 实战',
+    start: '2025/2',
+    end: '2025/2',
+  },
+  {
+    name: 'GPT 图解',
     start: '2025/2',
     end: '2025/2',
   },
