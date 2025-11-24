@@ -152,6 +152,26 @@ window.finishedTasks = [
 
 window.readedBooks = [
   {
+    name: '创业十八年',
+    start: '2025/11',
+    end: '2025/11',
+  },
+  {
+    name: '稀缺',
+    start: '2025/11',
+    end: '2025/11',
+  },
+  {
+    name: '持续买入',
+    start: '2025/11',
+    end: '2025/11',
+  },
+  {
+    name: '低风险创业',
+    start: '2025/10',
+    end: '2025/10',
+  },
+  {
     name: 'YouTube 视频之王的崛起之路',
     start: '2025/3',
     end: '2025/3',
