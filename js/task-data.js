@@ -6,6 +6,21 @@ window.finishedTasks = []
 
 window.readedBooks = [
   {
+    name: '芯片突围',
+    start: '2026/05',
+    end: '2026/05',
+  },
+  {
+    name: '币安人生',
+    start: '2026/05',
+    end: '2026/05',
+  },
+  {
+    name: 'Agent 设计模式',
+    start: '2026/04',
+    end: '2026/04',
+  },
+  {
     name: '科技共和国',
     start: '2026/03',
     end: '2026/03',
