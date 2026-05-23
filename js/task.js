@@ -1,56 +1,39 @@
 class ListGroup extends React.Component {
-  renderTheme1(item) {
+  renderBook(item) {
     return (
-      <div className="list-group-item bg-transparent">
-        <div className="d-flex w-100 justify-content-between card-1-content">
-          <p className="mb-1"><a href={item.link}>{item.name}</a></p>
-          <small>{item.start}</small>
+      <div className="book-item">
+        <div className="book-content">
+          <div className="book-meta">
+            <i className="far fa-calendar-alt"></i>
+            <span className="book-date">{item.start}</span>
+            {item.start !== item.end && (
+              <div className="date-range">
+                <span className="date-separator">-</span>
+                <span className="book-date">{item.end}</span>
+              </div>
+            )}
+          </div>
+          <h3 className="book-title">
+            {item.link ? (
+              <a href={item.link} target="_blank" rel="noopener noreferrer">{item.name}</a>
+            ) : (
+              <span>{item.name}</span>
+            )}
+          </h3>
         </div>
       </div>
     )
-  }
-
-  renderTheme2(item) {
-    return (
-      <div className="list-group-item bg-transparent ">
-        <div className="card-2-content">
-          <p><a href={item.link}>{item.name}</a></p>
-          <small><i>{item.start} - {item.end}</i></small>
-        </div>
-      </div>
-    )
-  }
-
-  renderTheme3(item) {
-    return (
-      <div className="list-group-item bg-transparent">
-        <div className="card-3-content">
-          <p><a href={item.link}>{item.name}</a></p>
-          <small><i>{item.start} - {item.end}</i></small>
-        </div>
-      </div>
-    )
-  }
-
-  renderList() {
-    let {listData, type} = this.props
-
-    switch (type) {
-      case 'card1':
-        return listData.map(item => this.renderTheme1(item))
-      case 'card2':
-        return listData.map(item => this.renderTheme2(item))
-      case 'card3':
-        return listData.map(item => this.renderTheme3(item))
-      default:
-        return listData.map(item => this.renderTheme1(item))
-    }
   }
 
   render() {
+    let {listData} = this.props
     return (
-      <div className="list-group list-group-flush">
-        {this.renderList()}
+      <div>
+        {listData.map((item, index) => (
+          <div key={index} className="book-item-wrapper" style={{animationDelay: `${index * 0.05}s`}}>
+            {this.renderBook(item)}
+          </div>
+        ))}
       </div>
     )
   }
@@ -65,45 +48,75 @@ class Task extends React.Component {
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            <a class="nav-item nav-link active" href="#">任务</a>
+            <a class="nav-item nav-link active" href="#">已看过的技术书</a>
           </div>
         </div>
       </nav>
     )
   }
+
+  getBooksByYearAndMonth() {
+    const books = window.readedBooks
+    const grouped = {}
+    
+    books.forEach(book => {
+      const month = book.end
+      if (!grouped[month]) {
+        grouped[month] = []
+      }
+      grouped[month].push(book)
+    })
+    
+    const yearMap = {}
+    Object.keys(grouped).sort((a, b) => b.localeCompare(a)).forEach(month => {
+      const year = month.split('/')[0]
+      if (!yearMap[year]) {
+        yearMap[year] = []
+      }
+      yearMap[year].push({
+        month,
+        books: grouped[month]
+      })
+    })
+    
+    return Object.keys(yearMap)
+      .sort((a, b) => b - a)
+      .map(year => ({
+        year,
+        months: yearMap[year]
+      }))
+  }
+
   render() {
+    const booksByYear = this.getBooksByYearAndMonth()
+    
     return (
-      <div className="container-fluid">
+      <div className="container-fluid books-page">
         {this.renderNavbar()}
-        <div className="row dashboard">
-          <div className="col-12 col-sm-12 col-lg-4 mb-3 mb-sm-3">
-            <div className="card card-1">
-              <div className="card-header text-white">
-                正在执行中的计划
-              </div>
-              <div className="card-body">
-                <ListGroup type="card1" listData={window.doingThings} />
-              </div>
-            </div>
-          </div>
-          <div className="col-12 col-sm-12 col-lg-4 mb-3 mb-sm-3">
-            <div className="card card-2">
-              <div className="card-header text-white">
-                已完成的任务
-              </div>
-              <div className="card-body">
-                <ListGroup type="card2" listData={window.finishedTasks} />
-              </div>
-            </div>
-          </div>
-          <div className="col-12 col-sm-12 col-lg-4 mb-3 mb-sm-3">
-            <div className="card card-3">
-              <div className="card-header">
-                已看过的技术书
-              </div>
-              <div className="card-body">
-                <ListGroup type="card3" listData={window.readedBooks} />
-              </div>
+        <div className="row justify-content-center">
+          <div className="col-12 col-lg-11 col-xl-11">
+            <header className="books-header">
+              <h1>📚 已看过的技术书</h1>
+              <p className="books-count">共 {window.readedBooks.length} 本书</p>
+            </header>
+            
+            <div className="books-content">
+              {booksByYear.map(({year, months}) => (
+                <section key={year} className="year-section">
+                  <h2 className="year-title">
+                    <span className="year-badge">{year}</span>
+                    <span className="year-count">{months.reduce((sum, m) => sum + m.books.length, 0)} 本</span>
+                  </h2>
+                  {months.map(({month, books}) => (
+                    <div key={month} className="month-section">
+                      <h3 className="month-title">{month}</h3>
+                      <div className="books-grid">
+                        <ListGroup listData={books} />
+                      </div>
+                    </div>
+                  ))}
+                </section>
+              ))}
             </div>
           </div>
         </div>
