@@ -73,13 +73,38 @@
 .work-card {
   background: white;
   border-radius: 8px;
-  padding: 1.35rem 1.25rem;
+  padding: 0;
+  overflow: hidden;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
   border: 1px solid #e8dfd3;
   transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
   opacity: 0;
   transform: translateY(12px);
   animation: portfolioFadeIn 0.55s ease forwards;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.work-thumb-wrap {
+  aspect-ratio: 16 / 9;
+  background: #f0e8dc;
+  border-bottom: 1px solid #e8dfd3;
+  flex-shrink: 0;
+}
+
+.work-thumb {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.work-card-body {
+  padding: 1.15rem 1.15rem 1.25rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
 }
 
 .work-card:hover {
@@ -95,11 +120,43 @@
   margin-bottom: 0.65rem;
 }
 
+.work-meta {
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: #8b7355;
+  margin: -0.35rem 0 0.65rem;
+}
+
 .work-description {
   font-size: 0.92rem;
   line-height: 1.6;
   color: #6b5d4a;
   margin-bottom: 1rem;
+}
+
+.work-episode-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.25rem 0.75rem;
+  font-size: 0.72rem;
+  line-height: 1.45;
+  color: #6b5d4a;
+}
+
+.work-episode-list li {
+  padding: 0.15rem 0.4rem;
+  background: #faf7f2;
+  border-radius: 4px;
+  border: 1px solid #efe6da;
+}
+
+@media (min-width: 480px) {
+  .work-episode-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 .work-tags {
@@ -123,6 +180,8 @@
   display: flex;
   flex-wrap: wrap;
   gap: 0.65rem;
+  margin-top: auto;
+  padding-top: 0.35rem;
 }
 
 .work-link {
@@ -181,7 +240,7 @@
     font-size: 1.75rem;
   }
 
-  .work-card {
-    padding: 1.1rem 1rem;
+  .work-card-body {
+    padding: 1rem 0.95rem 1.1rem;
   }
 }
