@@ -1,6 +1,8 @@
+// createdAt: GitHub repo created_at (API) or Bilibili first episode publish date (2026-10-05).
 window.portfolioWorks = [
   {
     title: 'OpenSwitch',
+    createdAt: '2026-04-19',
     description:
       'macOS 文件默认打开方式管理工具：将多个扩展名打包成预设，一键切换到 Cursor、VSCode 等目标应用，替代在系统设置里逐个修改。',
     thumbnail: {
@@ -18,6 +20,7 @@ window.portfolioWorks = [
   },
   {
     title: 'Sift',
+    createdAt: '2026-09-12',
     description:
       'macOS 开源 Git diff 阅读器：在同一窗口管理多仓库与 worktree，集中审查文件改动、hunk 暂存/放弃，并支持 AI 解释选区（兼容 OpenAI Chat Completions）。',
     thumbnail: {
@@ -35,6 +38,7 @@ window.portfolioWorks = [
   },
   {
     title: 'JSONL Viewer',
+    createdAt: '2026-10-01',
     description:
       'Chrome Manifest V3 扩展：本地打开 JSONL / NDJSON / zstd 压缩 JSONL，逐行预览、搜索与 JSON 树查看，文件不离开浏览器。',
     thumbnail: {
@@ -52,6 +56,7 @@ window.portfolioWorks = [
   },
   {
     title: '影响世界的十大算法',
+    createdAt: '2026-10-05',
     description:
       '十集手绘动画，讲十个真正改变过世界的算法：它从哪来，解决了什么问题，为什么至今还在用。',
     meta: '10 集 · 更新于 2026-10-14',

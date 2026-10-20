@@ -135,12 +135,19 @@ class WorkCard extends React.Component {
   }
 }
 
+function sortWorksByCreatedAt(works) {
+  return works
+    .slice()
+    .sort((a, b) => (a.createdAt < b.createdAt ? 1 : a.createdAt > b.createdAt ? -1 : 0))
+}
+
 class Portfolio extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
       lightbox: null
     }
+    this.works = sortWorksByCreatedAt(window.portfolioWorks)
   }
 
   openLightbox = (src, alt) => {
@@ -152,7 +159,7 @@ class Portfolio extends React.Component {
   }
 
   render() {
-    const works = window.portfolioWorks
+    const works = this.works
     const { lightbox } = this.state
 
     return (
