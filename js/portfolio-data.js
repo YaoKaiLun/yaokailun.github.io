@@ -1,10 +1,3 @@
-window.portfolioProfile = {
-  name: '姚凯伦',
-  title: 'Agent 应用工程师',
-  intro:
-    '专注 macOS 原生工具、浏览器扩展与 AI 协作开发，用产品化方式解决日常开发中的重复劳动与审查痛点。'
-}
-
 window.portfolioWorks = [
   {
     title: 'OpenSwitch',
@@ -15,7 +8,6 @@ window.portfolioWorks = [
       fullSrc: './images/portfolio/full/openswitch.webp',
       alt: 'OpenSwitch 预设详情页界面截图'
     },
-    tags: ['macOS', 'SwiftUI', 'Swift', 'LaunchServices'],
     links: [
       {
         label: 'GitHub',
@@ -33,7 +25,6 @@ window.portfolioWorks = [
       fullSrc: './images/portfolio/full/sift.webp',
       alt: 'Sift 主界面：仓库侧栏、改动文件列表与 unified diff'
     },
-    tags: ['macOS', 'Swift', 'Git', 'Diff'],
     links: [
       {
         label: 'GitHub',
@@ -51,7 +42,6 @@ window.portfolioWorks = [
       fullSrc: './images/portfolio/full/jsonl-viewer.webp',
       alt: 'JSONL Viewer 扩展预览页：逐行预览、搜索与 JSON 树'
     },
-    tags: ['Chrome 扩展', 'Manifest V3', 'JavaScript', 'Web Worker'],
     links: [
       {
         label: 'GitHub',
@@ -70,7 +60,6 @@ window.portfolioWorks = [
       fullSrc: './images/portfolio/full/algorithms-bilibili.webp',
       alt: 'B 站合集「影响世界的十大算法」十集手绘封面网格'
     },
-    tags: ['Bilibili', '手绘动画', '算法'],
     episodes: [
       '10 Raft 共识算法',
       '9 TCP 拥塞控制',

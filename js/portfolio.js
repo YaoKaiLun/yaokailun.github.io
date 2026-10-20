@@ -128,13 +128,6 @@ class WorkCard extends React.Component {
               ))}
             </ul>
           ) : null}
-          <div className="work-tags">
-            {work.tags.map(tag => (
-              <span key={tag} className="work-tag">
-                {tag}
-              </span>
-            ))}
-          </div>
           <div className="work-links">{work.links.map(link => this.renderLink(link))}</div>
         </div>
       </article>
@@ -159,7 +152,6 @@ class Portfolio extends React.Component {
   }
 
   render() {
-    const profile = window.portfolioProfile
     const works = window.portfolioWorks
     const { lightbox } = this.state
 
@@ -169,10 +161,7 @@ class Portfolio extends React.Component {
         <div className="row justify-content-center">
           <div className="col-12 col-lg-10 col-xl-9">
             <header className="portfolio-header">
-              <p className="portfolio-greeting">{profile.name}</p>
               <h1>AI 创作集</h1>
-              <p className="portfolio-subtitle">{profile.title}</p>
-              <p className="portfolio-intro">{profile.intro}</p>
             </header>
 
             <section className="works-list" aria-label="作品集列表">
