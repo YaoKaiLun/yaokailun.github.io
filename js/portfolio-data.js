@@ -29,7 +29,8 @@ window.portfolioWorks = [
     description:
       'macOS 开源 Git diff 阅读器：在同一窗口管理多仓库与 worktree，集中审查文件改动、hunk 暂存/放弃，并支持 AI 解释选区（兼容 OpenAI Chat Completions）。',
     thumbnail: {
-      src: './images/portfolio/sift.webp',
+      src: './images/portfolio/thumbs/sift.webp',
+      fullSrc: './images/portfolio/full/sift.webp',
       alt: 'Sift 主界面：仓库侧栏、改动文件列表与 unified diff'
     },
     tags: ['macOS', 'Swift', 'Git', 'Diff'],
@@ -46,7 +47,8 @@ window.portfolioWorks = [
     description:
       'Chrome Manifest V3 扩展：本地打开 JSONL / NDJSON / zstd 压缩 JSONL，逐行预览、搜索与 JSON 树查看，文件不离开浏览器。',
     thumbnail: {
-      src: './images/portfolio/jsonl-viewer.webp',
+      src: './images/portfolio/thumbs/jsonl-viewer.webp',
+      fullSrc: './images/portfolio/full/jsonl-viewer.webp',
       alt: 'JSONL Viewer 扩展预览页：逐行预览、搜索与 JSON 树'
     },
     tags: ['Chrome 扩展', 'Manifest V3', 'JavaScript', 'Web Worker'],
@@ -64,7 +66,8 @@ window.portfolioWorks = [
       '十集手绘动画，讲十个真正改变过世界的算法：它从哪来，解决了什么问题，为什么至今还在用。',
     meta: '10 集 · 更新于 2026-10-14',
     thumbnail: {
-      src: './images/portfolio/algorithms-bilibili.webp',
+      src: './images/portfolio/thumbs/algorithms-bilibili.webp',
+      fullSrc: './images/portfolio/full/algorithms-bilibili.webp',
       alt: 'B 站合集「影响世界的十大算法」十集手绘封面网格'
     },
     tags: ['Bilibili', '手绘动画', '算法'],
