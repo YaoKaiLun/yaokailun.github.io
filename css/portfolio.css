@@ -6,6 +6,10 @@
   background-attachment: fixed;
 }
 
+body.portfolio-lightbox-open {
+  overflow: hidden;
+}
+
 .my-navbar {
   background-color: transparent !important;
   padding-left: 0;
@@ -63,11 +67,13 @@
   margin: 0 auto;
 }
 
-.works-grid {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 1.25rem;
+.works-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.1rem;
   padding: 0 1rem 1rem;
+  max-width: 52rem;
+  margin: 0 auto;
 }
 
 .work-card {
@@ -82,62 +88,91 @@
   transform: translateY(12px);
   animation: portfolioFadeIn 0.55s ease forwards;
   display: flex;
-  flex-direction: column;
-  height: 100%;
-}
-
-.work-thumb-wrap {
-  aspect-ratio: 16 / 9;
-  background: #f0e8dc;
-  border-bottom: 1px solid #e8dfd3;
-  flex-shrink: 0;
-}
-
-.work-thumb {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
-}
-
-.work-card-body {
-  padding: 1.15rem 1.15rem 1.25rem;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 0;
 }
 
 .work-card:hover {
-  transform: translateY(-3px);
+  transform: translateY(-2px);
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
   border-color: #d4c5b0;
 }
 
+.work-thumb-wrap {
+  flex: 0 0 auto;
+  width: 7.5rem;
+  padding: 0.85rem 0 0.85rem 0.85rem;
+}
+
+.work-thumb-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 4.5rem;
+  max-height: 6.5rem;
+  padding: 0.35rem;
+  border: 1px solid #e8dfd3;
+  border-radius: 6px;
+  background: #faf7f2;
+  cursor: zoom-in;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.work-thumb-btn:hover {
+  border-color: #c9b99a;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.work-thumb-btn:focus {
+  outline: 2px solid #c9b99a;
+  outline-offset: 2px;
+}
+
+.work-thumb {
+  max-width: 100%;
+  max-height: 5.75rem;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  display: block;
+  pointer-events: none;
+}
+
+.work-card-body {
+  padding: 1rem 1.15rem 1.15rem 0.65rem;
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+}
+
 .work-title {
-  font-size: 1.15rem;
+  font-size: 1.12rem;
   font-weight: 700;
   color: #5d4e37;
-  margin-bottom: 0.65rem;
+  margin-bottom: 0.45rem;
 }
 
 .work-meta {
   font-size: 0.78rem;
   font-weight: 600;
   color: #8b7355;
-  margin: -0.35rem 0 0.65rem;
+  margin: 0 0 0.55rem;
 }
 
 .work-description {
   font-size: 0.92rem;
   line-height: 1.6;
   color: #6b5d4a;
-  margin-bottom: 1rem;
+  margin-bottom: 0.85rem;
 }
 
 .work-episode-list {
   list-style: none;
   padding: 0;
-  margin: 0 0 1rem;
+  margin: 0 0 0.85rem;
   display: grid;
   grid-template-columns: 1fr;
   gap: 0.25rem 0.75rem;
@@ -153,7 +188,7 @@
   border: 1px solid #efe6da;
 }
 
-@media (min-width: 480px) {
+@media (min-width: 520px) {
   .work-episode-list {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -163,7 +198,7 @@
   display: flex;
   flex-wrap: wrap;
   gap: 0.4rem;
-  margin-bottom: 1rem;
+  margin-bottom: 0.85rem;
 }
 
 .work-tag {
@@ -181,7 +216,7 @@
   flex-wrap: wrap;
   gap: 0.65rem;
   margin-top: auto;
-  padding-top: 0.35rem;
+  padding-top: 0.15rem;
 }
 
 .work-link {
@@ -213,6 +248,56 @@
   color: #8b7355;
 }
 
+.portfolio-lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 2000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  background: rgba(45, 38, 30, 0.88);
+  cursor: zoom-out;
+}
+
+.portfolio-lightbox-image {
+  max-width: min(96vw, 1280px);
+  max-height: 90vh;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  border-radius: 6px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.35);
+  cursor: default;
+}
+
+.portfolio-lightbox-close {
+  position: absolute;
+  top: 0.75rem;
+  right: 0.75rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  border: none;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.92);
+  color: #5d4e37;
+  font-size: 1.6rem;
+  line-height: 1;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.portfolio-lightbox-close:hover {
+  background: #fff;
+}
+
+.portfolio-lightbox-close:focus {
+  outline: 2px solid #f5ebe0;
+  outline-offset: 2px;
+}
+
 @keyframes portfolioFadeIn {
   from {
     opacity: 0;
@@ -225,22 +310,43 @@
 }
 
 @media (min-width: 768px) {
-  .works-grid {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 1.5rem;
-  }
-
   .portfolio-header h1 {
     font-size: 2.25rem;
   }
+
+  .work-thumb-wrap {
+    width: 8.5rem;
+    padding: 1rem 0 1rem 1rem;
+  }
+
+  .work-card-body {
+    padding: 1.1rem 1.25rem 1.2rem 0.75rem;
+  }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 575px) {
   .portfolio-header h1 {
     font-size: 1.75rem;
   }
 
+  .work-card {
+    flex-direction: column;
+  }
+
+  .work-thumb-wrap {
+    width: 100%;
+    padding: 0.85rem 0.85rem 0;
+  }
+
+  .work-thumb-btn {
+    max-height: 7rem;
+  }
+
+  .work-thumb {
+    max-height: 6.25rem;
+  }
+
   .work-card-body {
-    padding: 1rem 0.95rem 1.1rem;
+    padding: 0.85rem 0.95rem 1rem;
   }
 }

@@ -11,7 +11,8 @@ window.portfolioWorks = [
     description:
       'macOS 文件默认打开方式管理工具：将多个扩展名打包成预设，一键切换到 Cursor、VSCode 等目标应用，替代在系统设置里逐个修改。',
     thumbnail: {
-      src: './images/portfolio/openswitch.webp',
+      src: './images/portfolio/thumbs/openswitch.webp',
+      fullSrc: './images/portfolio/full/openswitch.webp',
       alt: 'OpenSwitch 预设详情页界面截图'
     },
     tags: ['macOS', 'SwiftUI', 'Swift', 'LaunchServices'],
